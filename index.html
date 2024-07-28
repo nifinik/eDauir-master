@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Цифровые сервисы для вашего бизнеса" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
+    <!-- <noscript><link rel="stylesheet" href="styles.css"></noscript> -->
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="./assets/img/favicon.svg"
+    />
+    <title>Edauir</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__box">
+          <input
+            class="header__checkbox"
+            aria-labelledby="temperature low"
+            type="checkbox"
+            name="burger"
+          />
+          <div class="header__logo">
+            <img
+              width="150"
+              height="35"
+              src="./assets/img/headerLogo.svg"
+              alt="Logo"
+            />
+          </div>
+          <nav class="header__nav">
+            <a href="#main" class="header__nav-item">Главная</a>
+            <a href="#our" class="header__nav-item">Услуги</a>
+            <a href="#about" class="header__nav-item">О нас</a>
+            <a href="#team" class="header__nav-item">Команда</a>
+            <a href="#customer" class="header__nav-item">Клиенты</a>
+            <a
+              href="#form"
+              class="header__btn header__nav-btn btn header__nav-item"
+              ><span>Контакты</span></a
+            >
+          </nav>
+          <div class="header__hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <a href="#form" class="header__btn btn"> <span>Контакты</span></a>
+        </div>
+      </div>
+    </header>
+    <section id="main" class="banner link">
+      <div class="banner__box">
+        <div class="banner__img-box">
+          <div class="banner__img">
+            <picture>
+              <source
+                srcset="./assets/img/banner-img.webp"
+                width="400"
+                height="300"
+                alt="bg"
+                type="image/webp"
+              />
+              <img
+                src="./assets/img/banner-img.png"
+                width="400"
+                height="300"
+                alt="bg"
+              />
+            </picture>
+          </div>
+        </div>
+
+        <div class="banner__info container">
+          <h1 class="banner__title h2">
+            Цифровые продукты<br /><span>для вашего</span><br />бизнеса
+          </h1>
+          <div class="banner__subtitle text-primary">
+            Мы делаем веб-сайты, сервисы, UI/UX дизайн, мобильные приложения и
+            продвижение
+          </div>
+          <a href="#our" class="btn banner__btn">
+            <div class="info">
+              <span>Подробнее</span>
+              <div class="svg">
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="#fff"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.91083 10.4109L6.08917 11.5892L11.6783 6.00005L6.08917 0.410889L4.91083 1.58922L8.48833 5.16672H0.5V6.83339H8.48833L4.91083 10.4109Z"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="wave">
+        <img loading="lazy" src="./assets/img/wave.svg" alt="wave" />
+      </div>
+    </section>
+
+    <!-- Наши Услуги -->
+    <section id="our" class="our link">
+      <div class="container">
+        <div class="out__box">
+          <div class="h3 our__title">Наши услуги</div>
+          <ul class="our__items items-grid">
+            <li class="our__item">
+              <div class="our__item-logo our__item-logo-1">
+                <img
+                  loading="lazy"
+                  height="33"
+                  width="33"
+                  src="./assets/img/our1.svg"
+                  alt="arrow"
+                />
+              </div>
+              <div class="our__item-title h6">Проектирование</div>
+              <div class="our__item-text text-primary">
+                Определяем цели и задача проектаоговариваем ваши пожелания и
+                идеи
+              </div>
+            </li>
+            <li class="our__item">
+              <div class="our__item-logo our__item-logo-2">
+                <img
+                  loading="lazy"
+                  height="33"
+                  width="33"
+                  src="./assets/img/our2.svg"
+                  alt="arrow"
+                />
+              </div>
+              <div class="our__item-title h6">UI/UX-дизайн</div>
+              <div class="our__item-text text-primary">
+                Разрабатываем макеты дизайна в четырех формах (desktop, laptop,
+                tablet, phone)
+              </div>
+            </li>
+            <li class="our__item">
+              <div class="our__item-logo our__item-logo-3">
+                <img
+                  loading="lazy"
+                  height="33"
+                  width="33"
+                  src="./assets/img/our3.svg"
+                  alt="arrow"
+                />
+              </div>
+              <div class="our__item-title h6">Веб-сайт</div>
+              <div class="our__item-text text-primary">
+                Оживляем макет и превращаем его в сайт (качественный и
+                адаптивный под все устройства)
+              </div>
+            </li>
+            <li class="our__item">
+              <div class="our__item-logo our__item-logo-4">
+                <img
+                  loading="lazy"
+                  height="33"
+                  width="33"
+                  src="./assets/img/our4.svg"
+                  alt="arrow"
+                />
+              </div>
+              <div class="our__item-title h6">Android/IOS приложения</div>
+              <div class="our__item-text text-primary">
+                Разрабатываем мобильное приложение с удобным интерфейсом для
+                iOS, Android
+              </div>
+            </li>
+            <li class="our__item">
+              <div class="our__item-logo our__item-logo-5">
+                <img
+                  loading="lazy"
+                  height="33"
+                  width="33"
+                  src="./assets/img/our5.svg"
+                  alt="arrow"
+                />
+              </div>
+              <div class="our__item-title h6">СRM системы</div>
+              <div class="our__item-text text-primary">
+                Помогаем бизнесу оцифровать процессы, сэкономить деньги и
+                увеличить доходы
+              </div>
+            </li>
+            <li class="our__item">
+              <div class="our__item-logo our__item-logo-6">
+                <img
+                  loading="lazy"
+                  height="33"
+                  width="33"
+                  src="./assets/img/our6.svg"
+                  alt="arrow"
+                />
+              </div>
+              <div class="our__item-title h6">Продвижение</div>
+              <div class="our__item-text text-primary">
+                Продвигаем ваш бизнес на разных рекламных площадках (SEO, SMM,
+                target)
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="wave">
+        <img loading="lazy" src="./assets/img/wave.svg" alt="wave" />
+      </div>
+    </section>
+
+    <!-- О НАС -->
+    <section id="about" class="doc link">
+      <div class="container">
+        <div class="doc__box">
+          <div class="doc__title h3">О нас</div>
+          <div class="doc__video">
+            <picture>
+              <source
+                loading="lazy"
+                srcset="./assets/img/imageRobot-min.webp"
+                alt="bg"
+                type="image/webp"
+              />
+              <img
+                loading="lazy"
+                src="./assets/img/imageRobot-min.png"
+                alt="Roboto"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Этапы -->
+    <section class="customer link">
+      <div class="container">
+        <div class="customer__box">
+          <div class="customer__cards">
+            <div class="customer__cards-1">
+              <div class="customer__card customer__card-1">
+                <div class="customer__card-title customer__card-title-1 h2">
+                  Лучшие в мире платформы back-end
+                </div>
+                <div class="customer__card-text text-primary">
+                  Знакомство с Вашим бизнесом
+                </div>
+              </div>
+              <div class="customer__card customer__card-3">
+                <div class="customer__card-title customer__card-title-3 h2">
+                  2 этап
+                </div>
+                <div class="customer__card-text text-primary">
+                  Проработка макета и разработка дизайна
+                </div>
+              </div>
+            </div>
+
+            <div class="customer__cards-2">
+              <div class="customer__card customer__card-2">
+                <div class="customer__card-title customer__card-title-2 h2">
+                  3 этап
+                </div>
+                <div class="customer__card-text text-primary">
+                  Веб-разработка и программирование
+                </div>
+              </div>
+
+              <div class="customer__card customer__card-4">
+                <div class="customer__card-title customer__card-title-4 h2">
+                  4 этап
+                </div>
+                <div class="customer__card-text text-primary">
+                  Тестирование и запуск
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="customer__info">
+            <div class="customer__info-title h3">
+              Удовлетворение потребностей клиентов является нашим главным
+              приоритетом
+            </div>
+            <div class="customer__info-text text-primary">
+              Мы обслуживаем множество клиентов, начиная от малого бизнеса,
+              средних предпринимателей и заканчивая всемирно известными
+              компаниями. Их удовлетворение – это наше удовольствие. Мы
+              стремимся предоставить лучший сервис за счет:
+            </div>
+            <ul class="customer__info-items">
+              <li class="customer__info-item text-primary">
+                Обеспечьте поддержку идеи от нашей творческой команды
+              </li>
+              <li class="customer__info-item text-primary">
+                Предоставление привлекательных и профессиональных дизайнерских
+                услуг
+              </li>
+              <li class="customer__info-item text-primary">
+                Поддержка сервиса 24 часа в неделю
+              </li>
+              <li class="customer__info-item text-primary">
+                Помогаем нашим клиентам развивать свой бизнес
+              </li>
+              <li class="customer__info-item text-primary">
+                Обеспечьте поддержку продуктов на рынке через онлайн-рынок
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Команда -->
+    <section id="team" class="team link">
+      <div class="container">
+        <div class="team__title h3">Наша команда</div>
+        <div class=""></div>
+        <div class="team__box items-grid">
+          <div class="team__card">
+            <div class="team__card-img team__card-img1">
+              <img
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhYZGBgaGhoZHBgZGhoYHBocHBgeHBoaGhocIS4lHB4rIxocJjgmKy8xNTU1HCQ7QDs0Py40NTEBDAwMEA8QHhISGjEhISE0NDQxNDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDExMTQxNDUxNP/AABEIAOIA3wMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAAECBwj/xABDEAABAgQCBwUFBgUDAwUAAAABAAIDBBEhMVEFEkFhcYGRIqGxwfAGEzJy0SNCUmKy4RQkgpLxNKLCB3PSM0Njo7P/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAiEQEBAAIDAAICAwEAAAAAAAAAAQIRAyExEkEiUTJCYQT/2gAMAwEAAhEDEQA/AKIxNpP2nEOjHi2exKmKWLoF72646KrJfUTpd9H6ehPAo4dU6hTAOBqvGouj4kM4OG8fsipPT0eGfi1hvU3D9Ht7IyOpWxV51o720Fg8U44KzSemobxUOHVT3PT6WLWUjXtpdK2TFcDVdiMjZaGFmS1rEJc+eA2qJ2l2jEpmce8BxUEeWa5KH6aYu36VAbUXOwJWCBdJHUNK3xpuVemNIsGFXndQDhVdz0Z8RxFfmOZ8glsdhAOoCc37OWQ3pNNaQx595IDRq12E18lNF2MNAcClEWtburzRsywuYIorsBvtAx50S2JNp3SLXDGvy7DwUshpaLBNHExGZH4m8CceHggJWZd914+R4seBpUIhkcPJaRqvGIO3hmqiVxlplkRgew1B9UORWPVTk5owX6wPYPxDYd+4q0w4oe0ObcFMm1sLmimYxK05Nh3uUZeiIjEO9hRKWnOutay1qrNQphtckLNUrRagKjDKuuhnfZjgqLLvVz0K/sBXUTswiyzHYgJVOezsN+Aom4KyqjYUTSOgNTA8ko909hqCRwVz0n8aCMEHEK4nYCR07GZSrtYd6s0H2oYWipuqxpWAG6tNpQDBdHxlV8lumNONdgEsi6QJ2KBkOy5LEaPbP49+u1oFamifl9G0GNOQrt7jyCVSUsNbXOVjlmenijI0wGM13WJqabtg8FGTTH9pjEYxtXd+3pc77JBpDSOuaCtNgt4GtFkuIky8DAE4DIbSrlov2WZiW1O+91nlnMfWuGFy8UmS0c95FGmisU1o8shFlCSaEDar5JaLawWA6KSZ0Y11yFheXdbzhknrx33RYe0CO9GCFrtBYQXNwO35eHmr1pD2ZY9Vee0A6CS5ld49bVrjySscuGwpESvZNg7uKJ0LpAwn+7eewTav3XZcFkVmuCcHbThXigHjWFDjgc93Ray7YWL20VTaUlC4YKj6G9oDDaGRGFwabuB7QbsNDjTwXp+hpuG5gexwcMws87V46Ln6JdkoXaHOSfxtPMFiEFF06xTPkfRU7RZyUD5CmxHxdMM2IKNpNpT/ACK/EO6VUL4K6fPhDumleqnpQWMVv0I4ag4KtQmp/opnZxW2TKLBJEF1CpZjVBUmh5QFtTilelSWvssvbpf0V6QILkMuozySuKraeMb6A02LN4hK/vBONNjsNO8eCTvHaCIZwwdkLqFC1juWQW1ARsBorQYAd/8AhTavGMe3AZ48B+/glWlIhe8jYATThgmT31fXfTh6BSyOy7jst+/gVLVbfYPRo90Ijrl7ndA6g8Kq9wIICS+y0ANloQyht8FYoYXBnd5V34TWMjoMUcREAKCIieGEiNSmfg1BsnTwl0y3FKen7Hnk3C1Hkc/Xralk02h1h63es1YvaCFRwdxHX9wFX4l+B8cfr0C7sLuPP5MdZWIHVB1henmNu4/VO/YmWje/cWPIggVINxU4BIYb6GmV6Zitx5qyez2mBBIaR2XWJGf3XdLcgnlLpOPq0aUbtSNzgcCmsxOMeDQqszDHtcSMEsfCy9GPBQ73kKOFPfiRQ1XYKkoPeFZrldOgrkwygEkDBWnQkBpZUnYqtLCytWiYX2RPFVl4Ug+Q0wxlWlL9IToe6oQD2XKwQTko1N7FvWkcY3UdFI+GRiuQFpGdC6cH2beI8Ckj/iHBP9Ot+xafzBIH/EOCcM7hfCOCLh9ljnH0NnrchpYdgHcpHu1g1m/WPlXcFNXHLHUDc7k86uPkoIws71s/dEtaO044YDhS/gFCW2Nd3gpXV20HKa8tDcYz29gCgwFBSlkQ/wDiIfwRg8bASK/7uCT6DgvdLMDXOABvShON8cEwm9HVPYe+h1LlzuwQKO1mk3wtSq5Nd3t6E/jOjfR+lYpcGxGEV+8Bbqm7zaqWaPhatWt1tQYF1EdFf2CsmshTpfSTmUaxhc45AkDokkSPMPrVwhjeQCnEJmuKmoDiQSBXVA3Z+tySx9Hu1+3FcGNadY6wGu7tULGjCxbagwNd+mOO+2eV0TaU0cQ4P95r1qCLkYZpTEbY50PUXt3BPYMFxa9tSW0dS1L0SVxOqK4kV5izh5ro4/NOTmneypz6UcNhr9QiGvA4Yt57ELMtobbb/XxrzXUu+rac+Hqy1YG7ZrAg0RbJ217pVLlpGqSAR6so4kw1v3hTigjpzWPFlgl3N+EpTJzTXOABun8CE/JINyjybELI7nh1mkhGQIJ/CnEvBFLhAecSrrKxaKngxuqVuS9i4lK66k0dIhr3MdcgqsrLEzcTfxTBs7l0ydb+FMBKMyXUOXbkpBDPxdY4UQqaaaYAbBK1U8RfUOnW/wAuD+ZqrkUXbwVm06P5YH8zfFV1wFWV/CT0TiocsdqwxvAw37AinM1GfmdlgBu+qHlW1a0k4AGv03ouGC465sBYDePIKb60x8DuYbN69anuo3moWv1td2wuIHANx/205rqeeWig+J/h+6jayjWsrlU4fmcetO9K3UOTdeg+yMKkuyoxFeqsTZcJXoBgbDYMhRPAFwXu2vU/jJA5YAKIeZNGFExidmagjNGoalT9qxLZB1qKeNLg4hD6MhmpB4o+LYIGuyOdhhrTQbCqM+HUGmIceoVw9o5sMhvOQPXYqfJPBL2k/ePQ4Hw711cO9OT/AKtSyEk26wzHqnf3qKTfenHwU+mIRBIw8jsrxuEHIVqd3n+y6HGKnW6zDnSvkUsEPJOorKtqPQ9FK9WlRhj/AITlKx3ooUmIXzhevQGDJeNQoxY9jwKlpBpwXo2idMviNqWlpyKKUWhrBkui1IJidiMFdiXu049SZZA9o5inxKfR2lC0lz7kpJL4I6BDBV2J2fHT7VwPaEJUZcLgwAp+I2ZTOkPeqEKKCyimCpLWnB/Kf1s/Uqy7Fm9jh3qz6c/0bvnZ+tVgCphcHfqCZw5hfAN+H18+inhTQFaUoLUPn6vRDT79RrAMT8I3nD1xXcrKGgLm1qbN/Ef/ABHkoaILvdrHF1xXY3a48e4cVDPxaUaMXEcmA+JPgjJ+MIYp8T3X9bQPGqURG4F93OdfwHKyVVj69c0FE7DOA8E/Y9Ur2L0iIsBt+0zsPG8beeKuDSdW2K8/OfHJ6eNmWO24orZATDGEFgOrQYC1UvmZqNrUtS+FUPEjPNu1bHDxqlrbqx4brsylnaqlmItkhgTcTXALRiMCTUbdlimc26jUWaZ54/GqV7YzJ1dXM+vJJpN+rEIO0NB/sB+pU3tHMB8TVH3aA8Sf2CGc+j3HIMPQNPhUc13cc1jI8vmy+WVrNMCoJcLjsu8j3DnXNJ5QEAitRXHuPnZWKOwOaa5ap4G7Sq2xhYXN2g92Y5LRgdyzhQV2jup66oWflKHXGFarqWIIF9Ui1dm64FjZEGMR2Xio2OxH7hHh66V+O2jhRXKWcQxhbaw8FU56HquFMMQrVokl0NlcgnUmLpl7m6pQrpO6Nhw1FPOLcFFCtyuCOZE1UBKGyJivoFpUJo89QKJ2kNygiPqBbJcOfTYVO1TEylJnWRzUr0e/Gyaw1SL6406f5N/zw/1hV6WZUwchr9xBVh05/pH/ADQ//wBGpNKgBjdv/qeQ8SlfFYw0htYWiLEIo2pDcya8zTJLp/T5ofdt1a21zTW4NGDRhn1REdnYvupXYkmkm0A4nw9dVH2006lmkuc51yTica1v59VmkYlNX1l9URAOf4Q7htSvSj7jOnSp/ZPZzqDNC6XiS0bXZcHFtbPbjQ76XB2c6L2nQGlYcxCbEhmoNi02c1wxa4bCF4TKQqsBP4gBwCtfsdNPhRnFhxA1m7HUO0ZrDmxmU/10cOVnX09XmJLXuLHP65oF+jX/AIh0/dHSmkGuaDhXYVNFjNzC5ZuO7HkynUpKyQDDXE5nyVb9sNOCBDOrd5s0ZE/eO4KzzsxWtF5f7dw3Va83FxXfiB0r0V8U+WXbHnzy+NpRLAmEHkkkuqSdp1yTzTCYbR55dxuO5CaNOtL72voeBcCPHuTHSDKtL9tAe4U713OD6bhO7BB6chXvBS+LB7ZGYt9Ucz4AcxXx9c1G9lxnQU45ITQckRqkbCD4kjwXbqivKozpb6qKO0sfuNxTgbKaoDanbccL/smSGO0PaPxBW3QcqfdM+UKqvHaafV8+5XrRLxqCuQQVEsg3SzTLKEJ3DeKpXp7FKlKpEnERcV9s0pliQmsu8HFXUog86uCJZQ0spTTBc6qnR/JLLihR8MoKWRrDZUmt6RBdLRAMasPR7SUslJc6jdp7WywBAvwTJ0wwsewnGlORB8kK24JLiGt6E8D4qcq0xxRzBq2hxGKRzvaq04gg9xqmr44s48t4wNtvclcy0F1Rjhz4KF12yJZxzry2eSUzpqeXX1dEzcfVGqL3Fd+5d+7Dix7SLEHLA4EKjHNg6uo38IbzLj9KHmm2gIdYp2dqhOHIc0BAAeXP+6DXoKNH6Ub7ORvt373kjhlwusc/K14/Xpcg2wGGxFxINUJJUI700YufW3VstiQNiq/tfJN9w8uH+SaDvKucxikftPMQ2QXe8Nn9kDa45Dpiqwn5TSM7+LybRYLHPZ91zajiMB34Z0TiJ2mOGTR4BKKgmrDQa1BmDi0n1iCmrTY7w2vcD4lddcaeXh1Y3+kcrE+tyE0m0s1DT73gKHx7iuWzuoLYi3OtAu5phjQxerm9oDO1CONiUSlY3OMD2B4yv67+ZS2IbDdbxRuj49AWG7a9NvriVHMy9K0wyt65qkoXuo1hzNONLK2y7iGtAyVSiNr7obA5o6lXKd7JaAll4SSNGcwVUEy8vFSuZ2NVtOCk/wDbCWwpcs2qJeQwVUEkbKWfHYK0qHUvONN6qczTTtVUgvOae+zkqHOe919WgFcyceg70Ho5lmupU8l3EJRZYoYrUlaDyssXuoOuQ2lSTjm11G8yctpXMKOWax3E86H6qODEZVznmtqao2k5n1sU1SN8BzydUbNVu4bTyw/ylekIrWVa3tHa7xpuTibnSWFrbV+IiwFdgpilkOWDGh9A55+GuDRscczkjQKBCtVwN9l+viuR2Rbbl6wRsyc7k7fNCRGXaMx53KDEsmXhhAqGuoTyyPHwCsfsYA+KQcbnoSPMKuuoW02AeN6ph7Jxy2ZgjDW1mn+0nxAWec3jWvHdZR6zLMobJlDiIWXYjGQ1x707bI5iNqqP/wBR4X2cI1we4cy23gVe3MKrvtlLNdKxNfYA5pycD2etacCVrx5ayjPkx3jXjrzqOtgRQ+RT7R8XXZv+E9KV/T0JSOah0od6I0bNFjgBzGdhbpZdVjhlY9t74YndelUxlS5lscj5bj+yyJDBcHDA9KHDkuKFjgDgcMiMKcR3dyQqaOwXeG0Bu5otQ/ib5j0AXTVCCbi4PA5jJHzNaVZe1bY7L8UkixQ6tRquwI2csjuVQjF1KspcFwoehHPFWydBLmqh6PmaHUOAuL5K+Mjte1rm7QEVJdPw3/dCKhvOoNZFOeh5t1kqFSkcERPfAUHIOsipp3YK0qPtW3DVVv8AZmDSXr+NzjyHZHgVT4z6lX+QhakKGzJja8SKnvJQuQS11ly8LTDQkc10UqZZHsdxr63JTBa4UxuRj6zTuah1QkuwO7O0Huz6pBk9RjWtzqeNKVPU05LmYNgdpHQYW3n6KOfZrRGf1NO69fALmYja9Ds2euJSoBObU1NhjyHkgXvrTpy9FFzj6NNNw+qXsFNvkiHRgf2Hnc0D+ojyB6Iv2eP8zL56/cUDGcAxrRiSHHkCAPE81Po2ZMOIyI0VLHBwrt2EcxXqps3KrG/lHvMtgEW0JboWbZFhsew9lwrvGYO8GyZtC4b09CVlFR/+ok5q+7hDbV7hn91v/Lor0AvK/b6NrTbh+BrG/wC3W/5LXgm8mXNdYqnOMqClsUlrg7YQL8MeaYz79VnMeKWTzwWt+Y9KBdl9cR/AiAsa7YatJOdajlfuU8zLazdU/wBJtY/T9kll5n+XIGLXAjoT5d6cSE0Hsplb6Hluz3KdHsDDmnssdliPMb/FRzkPXBcwXpVwyycMx6tgj48HXsbP2G3aGy/cl9KDaHNOO0bx58TvThFUN5qDkQOoP0VkkNMNYztHhwSVrKkki4OIFAbY0wBxwUM23sDcUyW7RemWxHUJojp2OzYUg0ZoppYCcaLqcldQVBPVIimQiJm1gf2StyPsvMHBhHFOmex0xqklXbE6qtw9ENLwK4kb9qtrzdJdGywEYA4tJqOCcuSVEMQ0IPqikXLxULhjkG1HG5JYrtQ6w2JzGwNFVtJRCTQYcTdIOo81VwNdh72keuK6hTALRuqO+oSh1Ty9ALGxS0lLR7GzDtZpHPuoUMwX87KExCVtpOHruQEsR2B4hdwX7EPuwpyHepJfFBx6F/0/037uJ7l57ET4fyv2cNbDjTNepw18/wAsSMLdy9W9jvaQRmiG8/atH94H3hvzHNc/Nx/2jo4eT+tW8heNe08TXmozv/kcP7Tq+S9ka9eGzUXXe934nOd1JKOCd0c96hPpY9lvGnUJUX4bk10rgB6wShjb0zsulyiWROzbPyH1KL0dFoCK7+5BtgkFTQnUdhQ7Tah5JGZiZpQn4TjuzpkiJiGC4OOBs47q4nhUXS09pmHAjcj5KYBJYfhIBzIpQHiKEcqohBmyxY4sdkaHdlyr3hbkpVrzqm4F0dEYTQHFtjtwwPS2aHlGFj9XcmDuC0AABA6Wd2ein95QYpbPzAdYJE9t0hOw5doJACIgTLYjNZuBCqntg13vGG5b6onXs9CLYV0B5To5h/jJjJron66Js82QMg3+Zmt0R4/+x/0RrsFQjkKGtCVK0WQ0R3bpm3zKDTRndm++2HGuSr8eCX11akZ58BsTadfQagpU0qchTD1vUcJlAOg3nafWSRq/MSZaL2yCFdLE2AVmmJUl2O8mlLVQkxQNthuxP0HrgiIP4XlnVde7phf91M+GXEVrbZzUr4GqPzHHcEGXavrxREnjWnNaiMpxXUA0cCaXyNeorZMGbGhTwYjmODmktINQ4GhBzBWMaFOIYogl40H7Yh7NSOQ19CA/7rrW1vwnu4Lz+C+oHBd+7INFow6EHCuPHNTjhMbbPtWWdyk39BdIQ9Zp3D14JZBgaw9WOaeuh1HrBCQ4Wo+3wuxy4p0geAaTssRtRD5etC3kPJTzssCA7PHktwmGhG6o4ix8kANLMvkcCPBTOhFj2mlNhGwh1qg5XHBEihAJvt3j65KKaY5lDct37PV+iBXf8Xc3NvhIyp8LhtG/ZwwIEyHtFhrssN48RzQHu61cKG2By6Xohpd5DyMrV9bEyERXvcaHos91QKaTeCS12+m47fEKSYh3bx/4lIPdJiCx/wAQqttcAKAUCI93dRx2UCWy08hgNpMzf/cf+t6meVqI2kzNb4jv1uK05UbqHggI5+2YM2nuITCGl8y37djtgY7mdZoHeQmEMR3bcTx8FPKuqNwH18aU5oSYGqSDuFOXemEOjWa26vE4jxSCGdfsNhi/fS9O/vG9KWHXq51mj4WjdtP02Ix7dZtz8RJ+nUnvUUOFqsAzz6lMJ5aSDWF76Nyrg2u05upYBLHOD3ACwxNcSAO5MIrdfGzQMNwrXmSD3IaBCs52091sO9SETJKrDXE350SuMwtsdhCssIbc0q0uy/GnimBEs6oCKFUBIPJATFqYbIsCcf3WRx2a5EeIXRwCyM2rHcD4WTJgYMKBRxYNlPCNaHcFt6WjBuYSymVfCtO4hRQ9g31HMUPkpWP7J4jwNu9QxBYJBuA21D62LT5kgFjrgYbh5jHou4AxB493+eiGnhQg7CDX1ndI2Szr2PA5YWPXpyUZYA/WFgRcb9nreoIDqU43rlh9ERHfR1TwPCvjimSZraOB39xB+gRMd4oA7PEbLH1zQRmqXxpQY2IJoOANaoeLPOoOyKDfu/dIPo9zkO94XZhE4lbbDCNQtvK51v8AMzB/Oe8kqB6P0w3+ZmfnH6UA9VPDdsFkBPvo9g/EadBVMGpdpOz4Z/MfD/CAi0gw2dTZX1vWPf8AZtJyqRkALBETIqx24Ajw8kHNRKMcMmMIHEn6dyQcB9Qyozd3Fw7x3LU0DqAjEX5XA7rrIT60FPh1KEZGlPHxXb39umylP7T9EByH9k7beYF+gW5RnZC4/hyNZowcKDdfDwXci6tdxvu4oDumqabDWm7cl+kBrA+sLpo9tanIV4nYEqmavbXY7Dh6ogOZBtGjemLUHLizaZBGtFk4ErRZdswouIW1dtxTJBJns0yt0stTcagotQzRzx+avUApbpKL2gEqqJYT8BXC66oXHd5IRr9m0gJlAZZKCsaNUt325j9ih59lWb2up3f46KeIa6udT5eS1MEarwdhqeuI6IIpAt81TyFB3lcPcSPXrJSRah7QMA0Dv/daY2uuePVAStg67AK0P0NR4qKNo41B2CviaeITCTZQM3guPOiYiGlsPcitDFaWIJ5npn/UzPzj9CXOxWLFU8NIxK9NfFD+f6rFidDuN8D/AJHJbM/FE+VvisWKQk0Ti3/tfVQnyPgFixAHt2/KfAoU2i2t2jhbaVixMOx8D/m/4uQp+FnyN/SFixIRuW+EcPMotqxYmSaHium4rFiYDO+N3BvmlE98Y4jxWLEqqO24jl4JpCwWLEQUPE2fMPBSRvhi/wBP6isWJUiePifW0qeHg/i79RWLEAfC+Nnyn9ITNyxYpof/2Q=="
+                alt="Tema1"
+              />
+            </div>
+            <div class="team__card-info">
+              <div class="team__card-name h6">Erzhan Simagambetov</div>
+              <div class="team__card-job text-primary">Frontend developer</div>
+            </div>
+          </div>
+          <div class="team__card">
+            <div class="team__card-img team__card-img2"></div>
+            <div class="team__card-info">
+              <div class="team__card-name h6">Ronald Richards</div>
+              <div class="team__card-job text-primary">Networking Engineer</div>
+            </div>
+          </div>
+          <div class="team__card">
+            <div class="team__card-img team__card-img3"></div>
+            <div class="team__card-info">
+              <div class="team__card-name h6">Ronald Richards</div>
+              <div class="team__card-job text-primary">Networking Engineer</div>
+            </div>
+          </div>
+          <div class="team__card">
+            <div class="team__card-img team__card-img4"></div>
+            <div class="team__card-info">
+              <div class="team__card-name h6">Ronald Richards</div>
+              <div class="team__card-job text-primary">Networking Engineer</div>
+            </div>
+          </div>
+          <div class="team__card">
+            <div class="team__card-img team__card-img5"></div>
+            <div class="team__card-info">
+              <div class="team__card-name h6">Ronald Richards</div>
+              <div class="team__card-job text-primary">Networking Engineer</div>
+            </div>
+          </div>
+          <div class="team__card">
+            <div class="team__card-img team__card-img6"></div>
+            <div class="team__card-info">
+              <div class="team__card-name h6">Ronald Richards</div>
+              <div class="team__card-job text-primary">Networking Engineer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wave">
+        <img loading="lazy" src="./assets/img/wave.svg" alt="wave" />
+      </div>
+    </section>
+
+    <!-- <section class="client">
+        <div class="container">
+            <div class="client__box">
+                <div class="client__title h3">Наши клиенты</div>
+                <div class="client__grid">
+                    <div class="client__item">
+                        <img loading="lazy" src="./assets/img/client1.svg" alt="logoClient">
+                    </div>
+                    <div class="client__item">
+                        <img loading="lazy" src="./assets/img/client1.svg" alt="logoClient">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- SLIDER -->
+    <section class="feedback slid link">
+      <div class="feedback__bg">
+        <div class="container">
+          <div class="slider" data-slider="itc-slider">
+            <div class="slider__container">
+              <div class="slider__wrapper">
+                <div class="slider__items">
+                  <div class="slider__item">
+                    <div class="slider__item-logo">
+                      <img
+                        loading="lazy"
+                        src="./assets/img/feedback.svg"
+                        alt="logo"
+                      />
+                    </div>
+                    <div class="slider__item-text text-primary">
+                      We Lorem ipsum dolor sit amet consectetur, adipisicing
+                      elit. Optio neque nisi alias illo accusantium, cum
+                      laudantium tenetur, eius commodi totam minima beatae, est
+                      aut eaque! Corrupti nam quidem pariatur quasi! are serious
+                      about providing our best service to all the customers we
+                      help. Customers satisfaction is our number onepriority.
+                    </div>
+
+                    <div class="slider__item-author h6">Mark Garfield</div>
+                    <div class="slider__item-job h6">CEO & Head of Product</div>
+                  </div>
+                  <div class="slider__item">
+                    <div class="slider__item-logo">
+                      <img
+                        loading="lazy"
+                        src="./assets/img/feedback.svg"
+                        alt="logo"
+                      />
+                    </div>
+                    <div class="slider__item-text text-primary">
+                      We are serious about providing our best service to all the
+                      customers we help. Customers satisfaction is our number
+                      onepriority.
+                    </div>
+
+                    <div class="slider__item-author h6">Mark Garfield</div>
+                    <div class="slider__item-job h6">CEO & Head of Product</div>
+                  </div>
+                  <div class="slider__item">
+                    <div class="slider__item-logo">
+                      <img
+                        loading="lazy"
+                        src="./assets/img/feedback.svg"
+                        alt="logo"
+                      />
+                    </div>
+                    <div class="slider__item-text text-primary">
+                      We are serious about providing our best service to all the
+                      customers we help. Customers satisfaction is our number
+                      onepriority.
+                    </div>
+
+                    <div class="slider__item-author h6">Mark Garfield</div>
+                    <div class="slider__item-job h6">CEO & Head of Product</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button aria-label="more" class="slider__control" data-slide="prev">
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.91083 10.4109L6.08917 11.5892L11.6783 6.00005L6.08917 0.410889L4.91083 1.58922L8.48833 5.16672H0.5V6.83339H8.48833L4.91083 10.4109Z"
+                  fill="#01B2D3"
+                />
+              </svg>
+            </button>
+            <button aria-label="more" class="slider__control" data-slide="next">
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.91083 10.4109L6.08917 11.5892L11.6783 6.00005L6.08917 0.410889L4.91083 1.58922L8.48833 5.16672H0.5V6.83339H8.48833L4.91083 10.4109Z"
+                  fill="#01B2D3"
+                />
+              </svg>
+            </button>
+            <ol class="slider__indicators">
+              <li data-slide-to="0"></li>
+              <li data-slide-to="1"></li>
+              <li data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Вопросы и отв -->
+    <section class="question">
+      <div class="container">
+        <div class="question__title h3">Вопросы и ответы</div>
+
+        <div class="question__box">
+          <button aria-label="more" class="accordion h3">
+            1 этап. Бесплатная консультация и заполнение брифа
+          </button>
+          <div class="panel">
+            <p>
+              На этом предварительном этапе считаем нужным бесплатно
+              проконсультировать вас по возможностям и перспективам реализации
+              проекта. В свою очередь, вы делаете вывод о компетентности
+              специалистов и решаете, почему следует доверить проект именно нам.
+              Чтобы более точно и полно понять ваши ожидания от будущего сайта,
+              мы высылаем бриф — шаблон с вопросами. Его желательно заполнить
+              как можно подробнее. Это позволит избежать досадных недоразумений
+              на этапе проектирования и разработки. Заполненный бриф дает
+              возможность оценить объем и примерную стоимость работ. Получив
+              заполненный бриф, мы внимательно знакомимся с ним.
+            </p>
+            <strong
+              >Грамотно составленный и информативный бриф — первое условие
+              успешной разработки сайта.</strong
+            >
+          </div>
+
+          <button aria-label="more" class="accordion h3">
+            2 этап. Подготовка КП, подписание договора и составление ТЗ
+          </button>
+          <div class="panel">
+            <p>
+              На основе полученных данных и внутреннего планирования формируем
+              базовый документ — коммерческое предложение на создание сайта
+              (КП). В нем подробно описывается, что, как и почему будет сделано
+              для получения нужного результата. Когда КП обсудили, проговорили
+              все волнующие вопросы и пришли к консенсусу, составляем и
+              заключаем договор. Он гарантирует вам, что услуги по созданию
+              сайта будут оказаны в полном объеме и в условленные сроки.<br />
+              <strong
+                >Финальный подготовительный этап — формирование технического
+                задания на создание сайта (ТЗ)</strong
+              >. Оно составляется на языке, понятном специалистам —
+              веб-дизайнерам, программистам. Это рабочий документ, помогающий
+              выполнить все требования и проконтролировать результат.
+            </p>
+          </div>
+
+          <button aria-label="more" class="accordion h3">
+            3 этап. Разработка дизайна
+          </button>
+          <div class="panel">
+            <p>
+              <strong>Дизайн-концепция</strong> — это общая схематическая
+              визуализация, показывающая, как будет выглядеть сайт, сервис или
+              мобильное приложение в целом. Можно сравнить ее с эскизом —
+              «наброском», который впоследствии обрастает деталями, наполняется
+              объемом и цветом. Мы предлагаем несколько вариантов
+              дизайн-концепций и объясняем преимущества каждого подхода. Вы
+              выбираете лучший, на ваш взгляд, вариант. Потом,
+              <strong>прототипирование</strong>
+              — это создание шаблонов страниц. Прототип демонстрирует общий
+              внешний вид и структуру. Мы создаем прототипы для всех типов
+              страниц: главная, каталог, страница услуг, контакты, карточки
+              товаров и т.д. Каждый шаблон согласовывается и, при необходимости,
+              дорабатывается.
+            </p>
+          </div>
+          <button aria-label="more" class="accordion h3">
+            4 этап. Верстка и программирование
+          </button>
+          <div class="panel">
+            <p>
+              На этапе технических работ все, что придумано и «нарисовано»,
+              реализуется в «цифре» — в виде кода. Еще один ответственный этап —
+              программирование функционала. Чтобы на сайте работали формы
+              обратной связи, корзина магазина и другие опции, необходимо
+              использовать эффективные средства веб-разработки. <br />
+
+              Все, что сделано в процессе веб-разработки, подвергается
+              тестированию. Этим занимаются аналитики, программисты,
+              тестировщики студии и сам заказчик. Тщательно проверяем
+              работоспособность и оперативно устраняем проблемы до выхода сайта
+              в «мир».
+            </p>
+          </div>
+
+          <button aria-label="more" class="accordion h3">
+            5 этап. Наполнение сайта
+          </button>
+          <div class="panel">
+            <p>
+              Оболочка сайта готова, осталось наполнить ее содержанием. Для
+              этого используются тексты, фотографии и картинки, видео и
+              анимация, таблицы и инфографика. Контент предоставляется
+              заказчиком или создается в студии. У нас есть копирайтеры,
+              корректоры и редакторы, отвечающие за качество публикуемых
+              материалов.<br />
+
+              Создание контента лучше доверить специалистам. Он должен быть не
+              только интересным и полезным, но и оптимизированным в соответствии
+              с SEO. Созданный контент размещается на сайте.
+              <br />
+              <strong>Контент-менеджер</strong>
+              следит за тем, чтобы содержимое сайта красиво и правильно
+              отображалось вне зависимости от размеров экрана, софта и браузера.
+              Фотографии оптимизируются с сохранением качества — для ускорения
+              загрузки страниц. Типографирование обеспечивает правильное
+              отображение текстов — для комфортного восприятия пользователями.
+            </p>
+          </div>
+          <button aria-label="more" class="accordion h3">
+            6 этап. Пуско-наладка и сдача проекта
+          </button>
+          <div class="panel">
+            <p>
+              Перед запуском проект еще раз тестируется — уже в готовом,
+              наполненном виде. После этого сайт переносится на хостинг/сервер,
+              и подключается домен. Теперь ресурс доступен в Сети, и его можно
+              найти по уникальному адресу. Поскольку весь процесс разработки
+              происходит при вашем активном участии (заказчик согласовывает,
+              утверждает, вносит правки на каждом этапе), «сюрпризы» при сдаче
+              сайта исключены. При необходимости, проводим экспресс-обучение по
+              работе с администраторским интерфейсом — для вас и ваших
+              сотрудников.
+            </p>
+          </div>
+
+          <button aria-label="more" class="accordion h3">Этапы оплаты</button>
+          <div class="panel">
+            <p>
+              Отдельно стоит сказать о том, как оплачивается веб-разработка. Как
+              вы увидели, процесс создания сайта — длительный и включает в себя
+              множество этапов. Логично, что оплата тоже осуществляется
+              поэтапно. Это удобно как для заказчика, так и для веб-студии.
+              <br />
+              Обычно работа начинается после получения небольшой предоплаты. А
+              дальнейшая последователь внесения платежей обсуждается и
+              прописывается в договоре.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- НАШЫ РАБОТЫ -->
+    <section id="customer" class="work link">
+      <div class="container">
+        <div class="work__title h3">Наши работы</div>
+        <div class="work__grid">
+          <a
+            class="work__item work__item-1"
+            href="https://ansar.pro/"
+            target="_blank"
+          >
+            <div class="work__item-info">
+              <div class="work__item-title">Ansar.pro</div>
+              <hr />
+              <p class="work__item-text text-primary">
+                Online learning application course
+              </p>
+            </div>
+            <div class="work__item-img">
+              <img loading="lazy" src="./assets/img/work1.png" alt="work2" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ОТЗЫВЫ -->
+    <section class="thank">
+      <div class="container">
+        <div class="thank__title h3">Отзывы и благодарности</div>
+        <div class="thank__grid slider-thank slider">
+          <div class="slider__wrapper">
+            <div class="slider__items">
+              <div class="slider__item">
+                <div class="thank__item">
+                  <div class="thank__item-img">
+                    <img
+                      loading="lazy"
+                      src="./assets/img/thank1.png"
+                      alt="thank"
+                    />
+                  </div>
+                  <div class="thank__item-info">
+                    <div class="thank__item-name h5">Ляйля Умарова</div>
+                    <div class="thank__item-job">ansar.pro</div>
+                    <div class="thank__item-text text-primary">
+                      Рахмет вам за умение понять наш запрос, и правильно
+                      направить
+                    </div>
+                    <div class="thank__item-star">
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="thank__item">
+                  <div class="thank__item-img">
+                    <img
+                      loading="lazy"
+                      src="./assets/img/firstpoto.jpeg"
+                      alt="thank"
+                    />
+                  </div>
+                  <div class="thank__item-info">
+                    <div class="thank__item-name h5">Дамир Тайлыбеков</div>
+                    <div class="thank__item-job">Alhadaya</div>
+                    <div class="thank__item-text text-primary">
+                      Рекомендуем компанию eDauir, как надежного партнера.
+                      Ребята разработали сайт быстро и качественно.
+                    </div>
+                    <div class="thank__item-star">
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="thank__item">
+                  <div class="thank__item-img">
+                    <img
+                      loading="lazy"
+                      src="./assets/img/secondpoto.jpg"
+                      alt="thank"
+                    />
+                  </div>
+                  <div class="thank__item-info">
+                    <div class="thank__item-name h5">Нурсултан Амансалык</div>
+                    <div class="thank__item-job">Twitter inc.</div>
+                    <div class="thank__item-text text-primary">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt.
+                    </div>
+                    <div class="thank__item-star">
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="thank__item">
+                  <div class="thank__item-img">
+                    <img
+                      loading="lazy"
+                      src="./assets/img/thank1.png"
+                      alt="thank"
+                    />
+                  </div>
+                  <div class="thank__item-info">
+                    <div class="thank__item-name h5">Айсултан Сейитов</div>
+                    <div class="thank__item-job">Twitter inc.</div>
+                    <div class="thank__item-text text-primary">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt.
+                    </div>
+                    <div class="thank__item-star">
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                      <img
+                        loading="lazy"
+                        src="./assets/img/star.svg"
+                        alt="star"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button aria-label="more" class="slider__control" data-slide="prev">
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.91083 10.4109L6.08917 11.5892L11.6783 6.00005L6.08917 0.410889L4.91083 1.58922L8.48833 5.16672H0.5V6.83339H8.48833L4.91083 10.4109Z"
+                  fill="#01B2D3"
+                />
+              </svg>
+            </button>
+            <button aria-label="more" class="slider__control" data-slide="next">
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.91083 10.4109L6.08917 11.5892L11.6783 6.00005L6.08917 0.410889L4.91083 1.58922L8.48833 5.16672H0.5V6.83339H8.48833L4.91083 10.4109Z"
+                  fill="#01B2D3"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div id="form" class="footer__top">
+        <form class="footer__form container link">
+          <div class="footer__form-title h3">Хотите усилить бизнес?</div>
+          <div class="footer__form-input">
+            <div class="footer__congratulations h3">Заявка отправлена</div>
+            <input
+              type="text"
+              required
+              name="tel"
+              class="tel"
+              pattern="[+]{1}[7-9]{1}[ ]{1}[(]{1}[0-9]{3}[)]{1}[ ]{1}[0-9]{3}[ ]{1}[0-9]{4}"
+              placeholder="Номер телефона"
+            />
+            <button aria-label="more" type="submit"></button>
+          </div>
+        </form>
+        <div class="wave">
+          <img loading="lazy" src="./assets/img/wave.svg" alt="wave" />
+        </div>
+      </div>
+      <div class="footer__bg">
+        <div class="container">
+          <div class="footer__box">
+            <div class="footer__info">
+              <div class="header__logo footer__logo">
+                <img
+                  loading="lazy"
+                  src="./assets/img/footerLogo.svg"
+                  alt="Logo"
+                />
+              </div>
+              <div class="footer__text text-second">
+                Веб-студия «eDauir» специализируется на создании, сопровождении
+                и развитии технологичных веб-систем и мобильных приложений.
+                Является одним из ведущих в Казахстане веб студией.
+              </div>
+            </div>
+            <div class="footer__map">
+              <div class="footer__title h6">Наш офис</div>
+              <div class="footer__map-img">
+                <iframe
+                  title="myFrame"
+                  loading="lazy"
+                  src="https://yandex.ru/map-widget/v1/?um=constructor%3Afd5643fc7c6f52ef3db7d2ab1376ba698893a3ea531d81102b0b6cdcce904aec&amp;source=constructor"
+                  width="100%"
+                  height="368"
+                  frameborder="0"
+                ></iframe>
+              </div>
+            </div>
+            <div class="footer__contact">
+              <div class="footer__title h6">Контакты</div>
+              <address>
+                <div class="footer__address text-second">
+                  Братьев Жубановых 278А, Актобе
+                </div>
+                <a
+                  class="footer__email text-second"
+                  href="mailto:edauir.official@gmail.com"
+                  >edauir.official@gmail.com</a
+                >
+                <a class="footer__tel text-second" href="tel:+77714047550"
+                  >+7-771-404-75-50</a
+                >
+              </address>
+            </div>
+          </div>
+          <div class="footer__line"></div>
+          <div class="footer__menu">
+            <div class="footer__menu-text">© 2022 eDauir, Inc</div>
+            <nav class="footer__menu-nav">
+              <a href="#main" class="header__nav-item">Главная</a>
+              <a href="#our" class="header__nav-item">Услуги</a>
+              <a href="#about" class="header__nav-item">О нас</a>
+              <a href="#team" class="header__nav-item">Команда</a>
+              <a href="#customer" class="header__nav-item">Клиенты</a>
+            </nav>
+            <div class="footer__menu-media">
+              <a
+                href="https://www.instagram.com/edauir.kz/?next=%2F"
+                class="footer__menu-icon"
+              >
+                <img
+                  src="./assets/img/footer2.svg"
+                  alt="footer2"
+                  loading="lazy"
+                />
+              </a>
+              <!-- <a href="" class="footer__menu-icon">
+                            <img src="./assets/img/footer1.svg" alt="footer1" loading = "lazy">
+                        </a> -->
+              <!-- <a href="" class="footer__menu-icon">
+                            <img src="./assets/img/footer3.svg" alt="footer3" loading = "lazy">
+                        </a>
+                        <a href="" class="footer__menu-icon">
+                            <img src="./assets/img/footer4.svg" alt="footer4" loading = "lazy">
+                        </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
